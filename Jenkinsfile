@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('clone repo'){
             steps{
-                git credentialsId : "Demotoken", url : 'https://github.com/RakhiGpt/jen.git' , branch : 'main'
+                git credentialsId : "Demotoken", url : 'https://github.com/RakhiGpt/demo32.git' , branch : 'main'
             }
 
         }
